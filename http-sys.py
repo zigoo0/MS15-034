@@ -2,6 +2,7 @@
 import requests
 
 """
+@Zigoo0
 Another testing methods.
 curl -v [ipaddress]/ -H "Host: test" -H "Range: bytes=0-18446744073709551615"
 wget -O /dev/null --header="Range: 0-18446744073709551615" http://[ip address]/
