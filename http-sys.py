@@ -69,7 +69,11 @@ if __name__ == "__main__":
 	#Printing the list of vulnerable sites.
 	print color.red+"[*] %s found to be vulnerable."%(len(vulnerable)) +color.end
 	for vuln in vulnerable:
-		print vuln
+		print "[-] ", vuln
+		#Adding the vulnerable sites to a text file.
+		vulnz = open('vulnerable-hosts.txt', 'a')
+		vulnz.write(vuln+"\n")
+	print color.green+"[*] Vulnerable hosts added to "+color.end + "vulnerable-hosts.txt"
 	#Printing the number of fixed/not-vulnerable hosts.
 	print color.green+"\n[*] %s found to be NOT vulnerable."%(len(fixed)) +color.end
 	#printing the refferences.
