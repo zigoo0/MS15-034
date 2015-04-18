@@ -8,6 +8,9 @@ And you are ready to go :)
 Start the tool, enter list.txt and the tool will handle the rest :-)
 
 Features:
+
 1- Can scan Multiple sites.
+
 2- Supports SSL
+
 3- Super User Friendly :D
