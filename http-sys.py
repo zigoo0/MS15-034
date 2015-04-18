@@ -24,13 +24,10 @@ MS15-034: HTTP.sys (IIS) DoS And Possible Remote Code Execution.
 By Ebrahim Hegazy @Zigoo0 \n'''+color.end
 
 print banner
-
 #Reading hosts from a text file to test multiple sites.
 hosts = open(raw_input('[*] Enter the name of the list file: ')).readlines()
-#read_hosts= open(hosts).readlines()
 #Vulnerable hosts will go here.
 vulnerable = set()
-
 #Fixed hosts will go here.
 fixed = set()
 
