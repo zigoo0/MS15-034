@@ -6,3 +6,8 @@ To start using the tool, just create list.txt file, and add all the sites you wa
 And you are ready to go :)
 
 Start the tool, enter list.txt and the tool will handle the rest :-)
+
+Features:
+1- Can scan Multiple sites.
+2- Supports SSL
+3- Super User Friendly :D
