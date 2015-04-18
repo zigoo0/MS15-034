@@ -49,7 +49,7 @@ def main(url):
 		#Sending the Request.
 		r = requests.get(url, headers=headers, verify=False, timeout=5)
 		if r.status_code == 416 or "Requested Range Not Satisfiable" in r.text:
-			#print r.status_code
+			#print r.status_code.
 			print "[*] %s"%(url) + color.red+" is Vulnerable!\n"+color.end
 			#Adding the vulnerable hosts to a SET for later use and to make sure it's a unique host.
 			vulnerable.add(url)
